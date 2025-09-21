@@ -1,0 +1,42 @@
+# Traditional Chinese (Taiwan) translation for CabbageReport
+# Copyright (C) 2024 ONX999
+# This file is distributed under the same license as the CabbageReport package.
+# ONX999 <onx999@example.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: CabbageReport 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: ONX999\n"
+"Language-Team: Traditional Chinese\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: report_logic.py:30
+msgid "請先載入資料"
+msgstr "請先載入資料"
+
+#: data_fetcher.py
+msgid "API 呼叫失敗"
+msgstr "API 呼叫失敗"
+
+#: data_fetcher.py  
+msgid "無法連接到農糧署 API"
+msgstr "無法連接到農糧署 API"
+
+#: report_logic.py
+msgid "資料分析完成"
+msgstr "資料分析完成"
+
+#: report_logic.py
+msgid "正在產生報表"
+msgstr "正在產生報表"
+
+#: report_logic.py
+msgid "報表產生成功"
+msgstr "報表產生成功"

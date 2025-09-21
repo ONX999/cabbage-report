@@ -5,6 +5,7 @@
 import pandas as pd
 from typing import Dict, List
 from datetime import datetime
+from .i18n import _
 
 class ReportGenerator:
     def __init__(self):
@@ -27,7 +28,7 @@ class ReportGenerator:
             Dict 包含各項統計結果
         """
         if self.data is None:
-            raise ValueError("請先載入資料")
+            raise ValueError(_("請先載入資料"))
             
         # TODO: 實作統計計算邏輯
         pass
@@ -40,7 +41,7 @@ class ReportGenerator:
             List[str] 包含重要發現的文字描述
         """
         if self.data is None:
-            raise ValueError("請先載入資料")
+            raise ValueError(_("請先載入資料"))
             
         # TODO: 實作趨勢分析邏輯
         pass

@@ -6,6 +6,7 @@ import requests
 from typing import Dict, List, Optional
 import pandas as pd
 from datetime import datetime, timedelta
+from .i18n import _
 
 class DataFetcher:
     def __init__(self, api_key: str = None):
